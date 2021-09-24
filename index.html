@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+     <div class="container">
+        <h2>Survey Foam</h2>
+        <form action="">
+            <p>Let us know how we can improve freeCodeCamp</p>
+            <div class="row">
+                <div class="firstrow">
+                    <label for="name">Name</label>
+                </div>
+                <div class="secondrow">
+                    <input type="text"  name="name" placeholder="Enter your name">
+                </div>
+            </div>   
+            <div class="row">
+                <div class="firstrow">
+                    <label for="email">Email</label>
+                </div>
+                <div class="secondrow">
+                    <input type="email" name="email" placeholder="Enter your Email">
+                </div>
+            </div>   
+            <div class="row">
+                <div class="firstrow">
+                    <label for="age">Age</label>
+                </div>
+                <div class="secondrow">
+                    <input type="number" name="age" placeholder="Age">
+                </div>
+            </div>   
+            <div class="row">
+                <div class="firstrow">
+                    <label for="">Which option best describes your current role? </label>
+                </div>
+                <div class="secondrow">
+                    <select>
+                        <option value="">Student</option>
+                        <option value="">Worker</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="firstrow">
+                    <label for="recommending_freeCodeCamp">How likely is that you would recommend freeCodeCamp to a friend?</label>
+                </div>
+                <div class="secondrow radio">
+                    <input type="radio" name="recommending_freeCodeCamp" value="">
+                    <label for="">Definitely</label>
+                    <br>
+                    <input type="radio" name="recommending_freeCodeCamp" value="">
+                    <label for="">Maybe</label>
+                    <br>
+                    <input type="radio" name="recommending_freeCodeCamp" value="">
+                    <label for="">Not sure</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="firstrow">
+                    <label for="">What do you like most in FCC?</label>
+                </div>
+                <div class="secondrow">
+                    <select>    
+                        <option value="" disabled selected >Select your option</option>     <!-- ez nem jo igy -->
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="firstrow">
+                    <label for="">Things that should be improved in the future (Check all that apply)</label>
+                </div>
+                <div class="secondrow checkbox">
+                    <input type="checkbox" name="" value="">Front-end Projects
+                    <br>
+                    <input type="checkbox" name="" value="">Back-end Projects
+                    <br>
+                    <input type="checkbox" name="" value="">Data Visualisation
+                </div>
+            </div>
+        </form>
+     </div>
+</body>
+</html>
